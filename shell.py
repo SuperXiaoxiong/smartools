@@ -6,6 +6,7 @@ Created on 2016年12月28日
 
 '''
 python shell 使用
+在windows的实现shell过程中，可能因为readline()等同步监听接受消息的函数造成死锁，所以一般再开一个线程来监听回复
 '''
 
 
