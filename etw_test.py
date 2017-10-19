@@ -15,7 +15,9 @@ def some_fuc():
     
     job = etw.ETW(guid)
     
-    etw.run('etw',job)
+    #etw.run('etw',job)
+    # log the out
+    etw.run('etw', job, './etwlog')
     
     
 some_fuc()
