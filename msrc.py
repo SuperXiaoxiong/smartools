@@ -5,7 +5,7 @@
 
 '''
 ex:python msrc.py 2017-Oct
-
+抓取微软公开漏洞
 '''
 
 import httplib, urllib, base64
