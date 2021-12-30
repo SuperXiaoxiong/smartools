@@ -1,0 +1,10 @@
+bcprov-jdk.*\.jar
+catalina.*\.jar
+tomcat.*\.jar
+servlet-api.*\.jar
+el-api.jar
+junit-.*\.jar
+ecj-.*\.jar
+quartz-.*\.jar
+commons-.*\.jar
+zookeeper-.*\.jar

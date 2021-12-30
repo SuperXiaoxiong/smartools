@@ -60,6 +60,9 @@ def config_path(ini_path):
     for item in decompile_options:
         CONFIG['decompile_options'][item] = config.get('decompile_options', item)
 
+    CONFIG['nist_data_mirror'] = config.get('nist_data_mirror', 'repository')
+
+
 
 if __name__ == '__main__':
     # source_jar_file='/Users/admin/vulnerablity/weblogic/weblogic_patch_dir/p30729380_122140_Generic/122143'
